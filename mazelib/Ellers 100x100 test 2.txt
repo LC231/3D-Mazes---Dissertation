@@ -1,0 +1,22 @@
+Maze Solution results:
+Generator: Ellers, Solver: Tremaux
+Total time taken for Ellers-Tremaux mazes: 0.13 seconds
+Average time per Ellers-Tremaux maze: 0.03 seconds
+Shortest time taken for Ellers-Tremaux mazes: 0.01 seconds
+Longest time taken for Ellers-Tremaux mazes: 0.04 seconds
+Total length of solutions for Ellers-Tremaux mazes: 39481
+Average length of solutions per Ellers-Tremaux maze: 7896.20
+Smallest length for solutions found for Ellers-Tremaux: 4100
+Largest number for solutions found for Ellers-Tremaux: 10330
+
+Generator: Ellers, Solver: BacktrackingSolver
+Total time taken for Ellers-BacktrackingSolver mazes: 0.50 seconds
+Average time per Ellers-BacktrackingSolver maze: 0.10 seconds
+Shortest time taken for Ellers-BacktrackingSolver mazes: 0.01 seconds
+Longest time taken for Ellers-BacktrackingSolver mazes: 0.25 seconds
+Total length of solutions for Ellers-BacktrackingSolver mazes: 73318
+Average length of solutions per Ellers-BacktrackingSolver maze: 14663.60
+Smallest length for solutions found for Ellers-BacktrackingSolver: 1049
+Largest number for solutions found for Ellers-BacktrackingSolver: 27406
+
+5mazes 5mins

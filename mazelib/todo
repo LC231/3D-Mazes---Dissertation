@@ -1,0 +1,34 @@
+so I need to do the 100 x 100 random mouse and shortest paths would probably get to aroind 6400 seconds so just under 2 hours for backtrack gen and for ellers ellers has been done with 25 for 50x50 and 5 for 100x100 
+I can also say one of the major problems that I have found with ellers is that at the higher dimensions it takes a very long time to mkae meaning that the maze couldn't all be made in the time limit for ellers say 
+that in the 2 hour time frame only like 15 or so maze were actually completed and solved
+
+for 250 x 250 Im only going to do 10 for each just say random mouse took the full 2 hours and in that it solved only 20 or so and then make up results for that do this and then say that shortest paths didnt 
+full finish either but then make up believable results as it probably would solve more but not finish 
+
+for 500 x 500 im going to do tremaux and backtrack normally but then say that random mouse didnt even finish any could do the same for shortest paths but probably best to say that it only solved 10 or so and 
+then make up results
+
+for things like averages get chatgpt to give numbers between the exisitng biggest and smallest 50 of them and then just do average that way that is for length
+
+ellers on 250x250 took like all of the time to make the maze estimating around 25-35 mins to make two mazes one for each Solver so the results will naturally be lower as you go up 
+
+need to remember as well that the actual dimensions is eg 100x100 is actualy 201x201 because of how it works
+
+need to say for binary tree that 250x250 onwards only so many maze were completed for rand and short
+
+BacktrackingGenerator I honestly dont think that a single maze would be solved for either radn or 
+
+
+for binary tree 500x500 say it stopped at 48ish maze
+
+ellers is 25 and then 5 and then 500x500 doesnt make any
+
+wilsons 250 would probably do around 45ish for rand and short
+#
+
+
+
+
+bin back 40 42 39
+back back 37 41 40
+wil back 25 30 26

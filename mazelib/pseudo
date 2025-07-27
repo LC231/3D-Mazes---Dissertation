@@ -1,0 +1,43 @@
+function ShortestPathsFinder(maze):
+    solutions := empty list
+
+    for each starting position in maze:
+        solution := [starting position]
+        current_position := starting position
+        while current_position is not end position:
+            next_position := find_next_position(current_position, maze)
+            add next_position to solution
+            current_position := next_position
+        add solution to solutions
+
+    for each solution in solutions:
+        last_position := solution[last index]
+        neighbors := find_neighbors(last_position, maze)
+        for each neighbor in neighbors:
+            extended_solution := solution + [neighbor]
+            if neighbor is end position:
+                return extended_solution  
+
+    return "No solution found"
+
+function find_next_position(current_position, maze):
+  
+
+function find_neighbors(position, maze):
+   
+
+function backtracking_solver(maze):
+    current_position = start_position
+    while current_position != end_position:
+        direction = pickRandomDirection()
+        if canMove(current_position, direction):
+            move(current_position, direction)
+        else:
+            backtrack(current_position)
+    return "Maze solved"
+
+function pickRandomDirection():
+    directions = ["up", "down", "left", "right"]
+    return randomChoice(directions)
+
+    

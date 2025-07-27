@@ -1,0 +1,41 @@
+Maze Solution results:
+Generator: BinaryTree, Solver: RandomMouse
+Total time taken for BinaryTree-RandomMouse mazes: 33.12 seconds
+Average time per BinaryTree-RandomMouse maze: 0.66 seconds
+Shortest time taken for BinaryTree-RandomMouse mazes: 0.00 seconds
+Longest time taken for BinaryTree-RandomMouse mazes: 6.31 seconds
+Total length of solutions for BinaryTree-RandomMouse mazes: 28778
+Average length of solutions per BinaryTree-RandomMouse maze: 575.56
+Smallest length for solutions found for BinaryTree-RandomMouse: 33
+Largest number for solutions found for BinaryTree-RandomMouse: 1233
+
+Generator: BinaryTree, Solver: Tremaux
+Total time taken for BinaryTree-Tremaux mazes: 8.61 seconds
+Average time per BinaryTree-Tremaux maze: 0.17 seconds
+Shortest time taken for BinaryTree-Tremaux mazes: 0.00 seconds
+Longest time taken for BinaryTree-Tremaux mazes: 1.21 seconds
+Total length of solutions for BinaryTree-Tremaux mazes: 31002
+Average length of solutions per BinaryTree-Tremaux maze: 620.04
+Smallest length for solutions found for BinaryTree-Tremaux: 37
+Largest number for solutions found for BinaryTree-Tremaux: 1193
+
+Generator: BinaryTree, Solver: BacktrackingSolver
+Total time taken for BinaryTree-BacktrackingSolver mazes: 6.03 seconds
+Average time per BinaryTree-BacktrackingSolver maze: 0.12 seconds
+Shortest time taken for BinaryTree-BacktrackingSolver mazes: 0.00 seconds
+Longest time taken for BinaryTree-BacktrackingSolver mazes: 0.50 seconds
+Total length of solutions for BinaryTree-BacktrackingSolver mazes: 30192
+Average length of solutions per BinaryTree-BacktrackingSolver maze: 603.84
+Smallest length for solutions found for BinaryTree-BacktrackingSolver: 51
+Largest number for solutions found for BinaryTree-BacktrackingSolver: 1227
+
+Generator: BinaryTree, Solver: ShortestPaths
+Total time taken for BinaryTree-ShortestPaths mazes: 18.29 seconds
+Average time per BinaryTree-ShortestPaths maze: 0.37 seconds
+Shortest time taken for BinaryTree-ShortestPaths mazes: 0.02 seconds
+Longest time taken for BinaryTree-ShortestPaths mazes: 0.70 seconds
+Total length of solutions for BinaryTree-ShortestPaths mazes: 3276
+Average length of solutions per BinaryTree-ShortestPaths maze: 65.52
+Smallest length for solutions found for BinaryTree-ShortestPaths: 7
+Largest number for solutions found for BinaryTree-ShortestPaths: 143
+

@@ -1,0 +1,21 @@
+Maze Solution results:
+Generator: BacktrackingGenerator, Solver: Tremaux
+Total time taken for BacktrackingGenerator-Tremaux mazes: 0.45 seconds
+Average time per BacktrackingGenerator-Tremaux maze: 0.45 seconds
+Shortest time taken for BacktrackingGenerator-Tremaux mazes: 0.45 seconds
+Longest time taken for BacktrackingGenerator-Tremaux mazes: 0.45 seconds
+Total length of solutions for BacktrackingGenerator-Tremaux mazes: 84965
+Average length of solutions per BacktrackingGenerator-Tremaux maze: 84965.00
+Smallest length for solutions found for BacktrackingGenerator-Tremaux: 84965
+Largest number for solutions found for BacktrackingGenerator-Tremaux: 84965
+
+Generator: BacktrackingGenerator, Solver: BacktrackingSolver
+Total time taken for BacktrackingGenerator-BacktrackingSolver mazes: 15.57 seconds
+Average time per BacktrackingGenerator-BacktrackingSolver maze: 15.57 seconds
+Shortest time taken for BacktrackingGenerator-BacktrackingSolver mazes: 15.57 seconds
+Longest time taken for BacktrackingGenerator-BacktrackingSolver mazes: 15.57 seconds
+Total length of solutions for BacktrackingGenerator-BacktrackingSolver mazes: 61183
+Average length of solutions per BacktrackingGenerator-BacktrackingSolver maze: 61183.00
+Smallest length for solutions found for BacktrackingGenerator-BacktrackingSolver: 61183
+Largest number for solutions found for BacktrackingGenerator-BacktrackingSolver: 61183
+

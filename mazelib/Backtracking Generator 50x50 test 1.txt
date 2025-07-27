@@ -1,0 +1,41 @@
+Maze Solution results:
+Generator: BacktrackingGenerator, Solver: RandomMouse
+Total time taken for BacktrackingGenerator-RandomMouse mazes: 1507.01 seconds
+Average time per BacktrackingGenerator-RandomMouse maze: 30.14 seconds
+Shortest time taken for BacktrackingGenerator-RandomMouse mazes: 0.01 seconds
+Longest time taken for BacktrackingGenerator-RandomMouse mazes: 199.24 seconds
+Total length of solutions for BacktrackingGenerator-RandomMouse mazes: 132300
+Average length of solutions per BacktrackingGenerator-RandomMouse maze: 2646.00
+Smallest length for solutions found for BacktrackingGenerator-RandomMouse: 41
+Largest number for solutions found for BacktrackingGenerator-RandomMouse: 4889
+
+Generator: BacktrackingGenerator, Solver: Tremaux
+Total time taken for BacktrackingGenerator-Tremaux mazes: 6.20 seconds
+Average time per BacktrackingGenerator-Tremaux maze: 0.12 seconds
+Shortest time taken for BacktrackingGenerator-Tremaux mazes: 0.00 seconds
+Longest time taken for BacktrackingGenerator-Tremaux mazes: 0.47 seconds
+Total length of solutions for BacktrackingGenerator-Tremaux mazes: 124204
+Average length of solutions per BacktrackingGenerator-Tremaux maze: 2484.08
+Smallest length for solutions found for BacktrackingGenerator-Tremaux: 3
+Largest number for solutions found for BacktrackingGenerator-Tremaux: 4667
+
+Generator: BacktrackingGenerator, Solver: BacktrackingSolver
+Total time taken for BacktrackingGenerator-BacktrackingSolver mazes: 58.39 seconds
+Average time per BacktrackingGenerator-BacktrackingSolver maze: 1.17 seconds
+Shortest time taken for BacktrackingGenerator-BacktrackingSolver mazes: 0.00 seconds
+Longest time taken for BacktrackingGenerator-BacktrackingSolver mazes: 3.84 seconds
+Total length of solutions for BacktrackingGenerator-BacktrackingSolver mazes: 136992
+Average length of solutions per BacktrackingGenerator-BacktrackingSolver maze: 2739.84
+Smallest length for solutions found for BacktrackingGenerator-BacktrackingSolver: 37
+Largest number for solutions found for BacktrackingGenerator-BacktrackingSolver: 4841
+
+Generator: BacktrackingGenerator, Solver: ShortestPaths
+Total time taken for BacktrackingGenerator-ShortestPaths mazes: 1197.29 seconds
+Average time per BacktrackingGenerator-ShortestPaths maze: 23.95 seconds
+Shortest time taken for BacktrackingGenerator-ShortestPaths mazes: 0.01 seconds
+Longest time taken for BacktrackingGenerator-ShortestPaths mazes: 52.62 seconds
+Total length of solutions for BacktrackingGenerator-ShortestPaths mazes: 39120
+Average length of solutions per BacktrackingGenerator-ShortestPaths maze: 782.40
+Smallest length for solutions found for BacktrackingGenerator-ShortestPaths: 19
+Largest number for solutions found for BacktrackingGenerator-ShortestPaths: 1607
+

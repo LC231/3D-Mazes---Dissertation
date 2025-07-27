@@ -1,0 +1,101 @@
+Maze Solution results:
+Generator: Wilsons, Solver: RandomMouse
+Total time taken for Wilsons-RandomMouse mazes: 61.97 seconds
+Average time per Wilsons-RandomMouse maze: 1.24 seconds
+Shortest time taken for Wilsons-RandomMouse mazes: 0.00 seconds
+Longest time taken for Wilsons-RandomMouse mazes: 16.18 seconds
+Total length of solutions for Wilsons-RandomMouse mazes: 27806
+Average length of solutions per Wilsons-RandomMouse maze: 556.12
+Smallest length for solutions found for Wilsons-RandomMouse: 23
+Largest number for solutions found for Wilsons-RandomMouse: 1243
+
+Generator: Wilsons, Solver: Tremaux
+Total time taken for Wilsons-Tremaux mazes: 5.20 seconds
+Average time per Wilsons-Tremaux maze: 0.10 seconds
+Shortest time taken for Wilsons-Tremaux mazes: 0.00 seconds
+Longest time taken for Wilsons-Tremaux mazes: 0.41 seconds
+Total length of solutions for Wilsons-Tremaux mazes: 35356
+Average length of solutions per Wilsons-Tremaux maze: 707.12
+Smallest length for solutions found for Wilsons-Tremaux: 23
+Largest number for solutions found for Wilsons-Tremaux: 1249
+
+Generator: Wilsons, Solver: BacktrackingSolver
+Total time taken for Wilsons-BacktrackingSolver mazes: 17.75 seconds
+Average time per Wilsons-BacktrackingSolver maze: 0.36 seconds
+Shortest time taken for Wilsons-BacktrackingSolver mazes: 0.00 seconds
+Longest time taken for Wilsons-BacktrackingSolver mazes: 1.60 seconds
+Total length of solutions for Wilsons-BacktrackingSolver mazes: 33222
+Average length of solutions per Wilsons-BacktrackingSolver maze: 664.44
+Smallest length for solutions found for Wilsons-BacktrackingSolver: 31
+Largest number for solutions found for Wilsons-BacktrackingSolver: 1197
+
+Generator: Wilsons, Solver: ShortestPaths
+Total time taken for Wilsons-ShortestPaths mazes: 40.16 seconds
+Average time per Wilsons-ShortestPaths maze: 0.80 seconds
+Shortest time taken for Wilsons-ShortestPaths mazes: 0.16 seconds
+Longest time taken for Wilsons-ShortestPaths mazes: 2.69 seconds
+Total length of solutions for Wilsons-ShortestPaths mazes: 4782
+Average length of solutions per Wilsons-ShortestPaths maze: 95.64
+Smallest length for solutions found for Wilsons-ShortestPaths: 3
+Largest number for solutions found for Wilsons-ShortestPaths: 321
+
+Generator: BinaryTree, Solver: RandomMouse
+Total time taken for BinaryTree-RandomMouse mazes: 42.12 seconds
+Average time per BinaryTree-RandomMouse maze: 0.84 seconds
+Shortest time taken for BinaryTree-RandomMouse mazes: 0.00 seconds
+Longest time taken for BinaryTree-RandomMouse mazes: 3.45 seconds
+Total length of solutions for BinaryTree-RandomMouse mazes: 29486
+Average length of solutions per BinaryTree-RandomMouse maze: 589.72
+Smallest length for solutions found for BinaryTree-RandomMouse: 3
+Largest number for solutions found for BinaryTree-RandomMouse: 1189
+
+Generator: BinaryTree, Solver: Tremaux
+Total time taken for BinaryTree-Tremaux mazes: 3.04 seconds
+Average time per BinaryTree-Tremaux maze: 0.06 seconds
+Shortest time taken for BinaryTree-Tremaux mazes: 0.00 seconds
+Longest time taken for BinaryTree-Tremaux mazes: 0.18 seconds
+Total length of solutions for BinaryTree-Tremaux mazes: 28160
+Average length of solutions per BinaryTree-Tremaux maze: 563.20
+Smallest length for solutions found for BinaryTree-Tremaux: 7
+Largest number for solutions found for BinaryTree-Tremaux: 1221
+
+Generator: BinaryTree, Solver: BacktrackingSolver
+Total time taken for BinaryTree-BacktrackingSolver mazes: 11.90 seconds
+Average time per BinaryTree-BacktrackingSolver maze: 0.24 seconds
+Shortest time taken for BinaryTree-BacktrackingSolver mazes: 0.00 seconds
+Longest time taken for BinaryTree-BacktrackingSolver mazes: 0.99 seconds
+Total length of solutions for BinaryTree-BacktrackingSolver mazes: 32760
+Average length of solutions per BinaryTree-BacktrackingSolver maze: 655.20
+Smallest length for solutions found for BinaryTree-BacktrackingSolver: 41
+Largest number for solutions found for BinaryTree-BacktrackingSolver: 1245
+
+Generator: BinaryTree, Solver: ShortestPaths
+Total time taken for BinaryTree-ShortestPaths mazes: 22.84 seconds
+Average time per BinaryTree-ShortestPaths maze: 0.46 seconds
+Shortest time taken for BinaryTree-ShortestPaths mazes: 0.01 seconds
+Longest time taken for BinaryTree-ShortestPaths mazes: 0.91 seconds
+Total length of solutions for BinaryTree-ShortestPaths mazes: 3956
+Average length of solutions per BinaryTree-ShortestPaths maze: 79.12
+Smallest length for solutions found for BinaryTree-ShortestPaths: 3
+Largest number for solutions found for BinaryTree-ShortestPaths: 143
+
+Generator: Ellers, Solver: RandomMouse
+Total time taken for Ellers-RandomMouse mazes: 16.25 seconds
+Average time per Ellers-RandomMouse maze: 0.32 seconds
+Shortest time taken for Ellers-RandomMouse mazes: 0.00 seconds
+Longest time taken for Ellers-RandomMouse mazes: 1.53 seconds
+Total length of solutions for Ellers-RandomMouse mazes: 37588
+Average length of solutions per Ellers-RandomMouse maze: 751.76
+Smallest length for solutions found for Ellers-RandomMouse: 11
+Largest number for solutions found for Ellers-RandomMouse: 1623
+
+Generator: Ellers, Solver: Tremaux
+Maze Solution results:
+Total time taken for mazes: 2.77 seconds
+Average time per maze: 1.38 seconds
+Shortest time taken for a maze: 0.10 seconds
+Longest time taken for a maze: 2.67 seconds
+Total length of solutions for all mazes: 222
+Average length of solutions per maze: 111.00
+Smallest length for solutions found: 31
+Largest length for solutions found: 191

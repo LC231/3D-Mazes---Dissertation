@@ -1,0 +1,22 @@
+
+Maze Solution results:
+Tremaux
+Total time taken for mazes: 1.89 seconds
+Average time per maze: 0.38 seconds
+Shortest time taken for a maze: 0.02 seconds
+Longest time taken for a maze: 0.68 seconds
+Total length of solutions for all mazes: 48312
+Average length of solutions per maze: 9662.40
+Smallest length for solutions found: 818
+Largest length for solutions found: 16963
+
+Maze Solution results:
+BacktrackingSolver
+Total time taken for mazes: 1.50 seconds
+Average time per maze: 0.30 seconds
+Shortest time taken for a maze: 0.10 seconds
+Longest time taken for a maze: 0.97 seconds
+Total length of solutions for all mazes: 34394
+Average length of solutions per maze: 6878.80
+Smallest length for solutions found: 2588
+Largest length for solutions found: 18566

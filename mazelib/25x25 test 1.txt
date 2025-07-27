@@ -1,0 +1,167 @@
+Maze Solution results:
+Generator: Wilsons, Solver: Tremaux
+Total time taken for Wilsons-Tremaux mazes: 0.01 seconds
+Average time per Wilsons-Tremaux maze: 0.01 seconds
+Shortest time taken for Wilsons-Tremaux mazes: 0.01 seconds
+Longest time taken for Wilsons-Tremaux mazes: 0.01 seconds
+Total length of solutions for Wilsons-Tremaux mazes: 125
+Average length of solutions per Wilsons-Tremaux maze: 125.00
+Smallest length for solutions found for Wilsons-Tremaux: 125
+Largest number for solutions found for Wilsons-Tremaux: 125
+
+Generator: Wilsons, Solver: BacktrackingSolver
+Total time taken for Wilsons-BacktrackingSolver mazes: 0.00 seconds
+Average time per Wilsons-BacktrackingSolver maze: 0.00 seconds
+Shortest time taken for Wilsons-BacktrackingSolver mazes: 0.00 seconds
+Longest time taken for Wilsons-BacktrackingSolver mazes: 0.00 seconds
+Total length of solutions for Wilsons-BacktrackingSolver mazes: 85
+Average length of solutions per Wilsons-BacktrackingSolver maze: 85.00
+Smallest length for solutions found for Wilsons-BacktrackingSolver: 85
+Largest number for solutions found for Wilsons-BacktrackingSolver: 85
+
+Generator: Wilsons, Solver: ShortestPaths
+Total time taken for Wilsons-ShortestPaths mazes: 0.01 seconds
+Average time per Wilsons-ShortestPaths maze: 0.01 seconds
+Shortest time taken for Wilsons-ShortestPaths mazes: 0.01 seconds
+Longest time taken for Wilsons-ShortestPaths mazes: 0.01 seconds
+Total length of solutions for Wilsons-ShortestPaths mazes: 35
+Average length of solutions per Wilsons-ShortestPaths maze: 35.00
+Smallest length for solutions found for Wilsons-ShortestPaths: 35
+Largest number for solutions found for Wilsons-ShortestPaths: 35
+
+Generator: BinaryTree, Solver: Tremaux
+Total time taken for BinaryTree-Tremaux mazes: 0.01 seconds
+Average time per BinaryTree-Tremaux maze: 0.01 seconds
+Shortest time taken for BinaryTree-Tremaux mazes: 0.01 seconds
+Longest time taken for BinaryTree-Tremaux mazes: 0.01 seconds
+Total length of solutions for BinaryTree-Tremaux mazes: 107
+Average length of solutions per BinaryTree-Tremaux maze: 107.00
+Smallest length for solutions found for BinaryTree-Tremaux: 107
+Largest number for solutions found for BinaryTree-Tremaux: 107
+
+Generator: BinaryTree, Solver: BacktrackingSolver
+Total time taken for BinaryTree-BacktrackingSolver mazes: 0.01 seconds
+Average time per BinaryTree-BacktrackingSolver maze: 0.01 seconds
+Shortest time taken for BinaryTree-BacktrackingSolver mazes: 0.01 seconds
+Longest time taken for BinaryTree-BacktrackingSolver mazes: 0.01 seconds
+Total length of solutions for BinaryTree-BacktrackingSolver mazes: 117
+Average length of solutions per BinaryTree-BacktrackingSolver maze: 117.00
+Smallest length for solutions found for BinaryTree-BacktrackingSolver: 117
+Largest number for solutions found for BinaryTree-BacktrackingSolver: 117
+
+Generator: BinaryTree, Solver: ShortestPaths
+Total time taken for BinaryTree-ShortestPaths mazes: 0.01 seconds
+Average time per BinaryTree-ShortestPaths maze: 0.01 seconds
+Shortest time taken for BinaryTree-ShortestPaths mazes: 0.01 seconds
+Longest time taken for BinaryTree-ShortestPaths mazes: 0.01 seconds
+Total length of solutions for BinaryTree-ShortestPaths mazes: 5
+Average length of solutions per BinaryTree-ShortestPaths maze: 5.00
+Smallest length for solutions found for BinaryTree-ShortestPaths: 5
+Largest number for solutions found for BinaryTree-ShortestPaths: 5
+
+Generator: Ellers, Solver: Tremaux
+Total time taken for Ellers-Tremaux mazes: 0.01 seconds
+Average time per Ellers-Tremaux maze: 0.01 seconds
+Shortest time taken for Ellers-Tremaux mazes: 0.01 seconds
+Longest time taken for Ellers-Tremaux mazes: 0.01 seconds
+Total length of solutions for Ellers-Tremaux mazes: 133
+Average length of solutions per Ellers-Tremaux maze: 133.00
+Smallest length for solutions found for Ellers-Tremaux: 133
+Largest number for solutions found for Ellers-Tremaux: 133
+
+Generator: Ellers, Solver: BacktrackingSolver
+Total time taken for Ellers-BacktrackingSolver mazes: 0.01 seconds
+Average time per Ellers-BacktrackingSolver maze: 0.01 seconds
+Shortest time taken for Ellers-BacktrackingSolver mazes: 0.01 seconds
+Longest time taken for Ellers-BacktrackingSolver mazes: 0.01 seconds
+Total length of solutions for Ellers-BacktrackingSolver mazes: 77
+Average length of solutions per Ellers-BacktrackingSolver maze: 77.00
+Smallest length for solutions found for Ellers-BacktrackingSolver: 77
+Largest number for solutions found for Ellers-BacktrackingSolver: 77
+
+Generator: Ellers, Solver: ShortestPaths
+Total time taken for Ellers-ShortestPaths mazes: 0.04 seconds
+Average time per Ellers-ShortestPaths maze: 0.04 seconds
+Shortest time taken for Ellers-ShortestPaths mazes: 0.04 seconds
+Longest time taken for Ellers-ShortestPaths mazes: 0.04 seconds
+Total length of solutions for Ellers-ShortestPaths mazes: 35
+Average length of solutions per Ellers-ShortestPaths maze: 35.00
+Smallest length for solutions found for Ellers-ShortestPaths: 35
+Largest number for solutions found for Ellers-ShortestPaths: 35
+
+Generator: BacktrackingGenerator, Solver: Tremaux
+Total time taken for BacktrackingGenerator-Tremaux mazes: 0.00 seconds
+Average time per BacktrackingGenerator-Tremaux maze: 0.00 seconds
+Shortest time taken for BacktrackingGenerator-Tremaux mazes: 0.00 seconds
+Longest time taken for BacktrackingGenerator-Tremaux mazes: 0.00 seconds
+Total length of solutions for BacktrackingGenerator-Tremaux mazes: 25
+Average length of solutions per BacktrackingGenerator-Tremaux maze: 25.00
+Smallest length for solutions found for BacktrackingGenerator-Tremaux: 25
+Largest number for solutions found for BacktrackingGenerator-Tremaux: 25
+
+Generator: BacktrackingGenerator, Solver: BacktrackingSolver
+Total time taken for BacktrackingGenerator-BacktrackingSolver mazes: 0.00 seconds
+Average time per BacktrackingGenerator-BacktrackingSolver maze: 0.00 seconds
+Shortest time taken for BacktrackingGenerator-BacktrackingSolver mazes: 0.00 seconds
+Longest time taken for BacktrackingGenerator-BacktrackingSolver mazes: 0.00 seconds
+Total length of solutions for BacktrackingGenerator-BacktrackingSolver mazes: 63
+Average length of solutions per BacktrackingGenerator-BacktrackingSolver maze: 63.00
+Smallest length for solutions found for BacktrackingGenerator-BacktrackingSolver: 63
+Largest number for solutions found for BacktrackingGenerator-BacktrackingSolver: 63
+
+Generator: BacktrackingGenerator, Solver: ShortestPaths
+Total time taken for BacktrackingGenerator-ShortestPaths mazes: 0.02 seconds
+Average time per BacktrackingGenerator-ShortestPaths maze: 0.02 seconds
+Shortest time taken for BacktrackingGenerator-ShortestPaths mazes: 0.02 seconds
+Longest time taken for BacktrackingGenerator-ShortestPaths mazes: 0.02 seconds
+Total length of solutions for BacktrackingGenerator-ShortestPaths mazes: 65
+Average length of solutions per BacktrackingGenerator-ShortestPaths maze: 65.00
+Smallest length for solutions found for BacktrackingGenerator-ShortestPaths: 65
+Largest number for solutions found for BacktrackingGenerator-ShortestPaths: 65
+
+Maze Solution results:
+Total time taken for mazes: 0.01 seconds
+Average time per maze: 0.01 seconds
+Shortest time taken for a maze: 0.01 seconds
+Longest time taken for a maze: 0.01 seconds
+Total length of solutions for all mazes: 59
+Average length of solutions per maze: 59.00
+Smallest length for solutions found: 59
+Largest length for solutions found: 59
+Maze Solution results:
+Total time taken for mazes: 0.15 seconds
+Average time per maze: 0.15 seconds
+Shortest time taken for a maze: 0.15 seconds
+Longest time taken for a maze: 0.15 seconds
+Total length of solutions for all mazes: 777
+Average length of solutions per maze: 777.00
+Smallest length for solutions found: 777
+Largest length for solutions found: 777
+Maze Solution results:
+Maze Solution results:
+Total time taken for mazes: 0.17 seconds
+Average time per maze: 0.17 seconds
+Shortest time taken for a maze: 0.17 seconds
+Longest time taken for a maze: 0.17 seconds
+Total length of solutions for all mazes: 33
+Average length of solutions per maze: 33.00
+Smallest length for solutions found: 33
+Largest length for solutions found: 33
+Maze Solution results:
+Total time taken for mazes: 0.02 seconds
+Average time per maze: 0.02 seconds
+Shortest time taken for a maze: 0.02 seconds
+Longest time taken for a maze: 0.02 seconds
+Total length of solutions for all mazes: 185
+Average length of solutions per maze: 185.00
+Smallest length for solutions found: 185
+Largest length for solutions found: 185
+Maze Solution results:
+Total time taken for mazes: 0.07 seconds
+Average time per maze: 0.07 seconds
+Shortest time taken for a maze: 0.07 seconds
+Longest time taken for a maze: 0.07 seconds
+Total length of solutions for all mazes: 521
+Average length of solutions per maze: 521.00
+Smallest length for solutions found: 521
+Largest length for solutions found: 521

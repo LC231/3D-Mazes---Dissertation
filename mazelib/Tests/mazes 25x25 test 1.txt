@@ -1,0 +1,41 @@
+Maze Solution results:
+Generator: BinaryTree, Solver: Tremaux
+Total time taken for BinaryTree-Tremaux mazes: 0.00 seconds
+Average time per BinaryTree-Tremaux maze: 0.00 seconds
+Shortest time taken for BinaryTree-Tremaux mazes: 0.00 seconds
+Longest time taken for BinaryTree-Tremaux mazes: 0.00 seconds
+Total length of solutions for BinaryTree-Tremaux mazes: 55
+Average length of solutions per BinaryTree-Tremaux maze: 55.00
+Smallest length for solutions found for BinaryTree-Tremaux: 55
+Largest number for solutions found for BinaryTree-Tremaux: 55
+
+Generator: BacktrackingGenerator, Solver: Tremaux
+Total time taken for BacktrackingGenerator-Tremaux mazes: 0.00 seconds
+Average time per BacktrackingGenerator-Tremaux maze: 0.00 seconds
+Shortest time taken for BacktrackingGenerator-Tremaux mazes: 0.00 seconds
+Longest time taken for BacktrackingGenerator-Tremaux mazes: 0.00 seconds
+Total length of solutions for BacktrackingGenerator-Tremaux mazes: 91
+Average length of solutions per BacktrackingGenerator-Tremaux maze: 91.00
+Smallest length for solutions found for BacktrackingGenerator-Tremaux: 91
+Largest number for solutions found for BacktrackingGenerator-Tremaux: 91
+
+Generator: Wilsons, Solver: Tremaux
+Total time taken for Wilsons-Tremaux mazes: 0.00 seconds
+Average time per Wilsons-Tremaux maze: 0.00 seconds
+Shortest time taken for Wilsons-Tremaux mazes: 0.00 seconds
+Longest time taken for Wilsons-Tremaux mazes: 0.00 seconds
+Total length of solutions for Wilsons-Tremaux mazes: 7
+Average length of solutions per Wilsons-Tremaux maze: 7.00
+Smallest length for solutions found for Wilsons-Tremaux: 7
+Largest number for solutions found for Wilsons-Tremaux: 7
+
+Generator: Ellers, Solver: Tremaux
+Total time taken for Ellers-Tremaux mazes: 0.00 seconds
+Average time per Ellers-Tremaux maze: 0.00 seconds
+Shortest time taken for Ellers-Tremaux mazes: 0.00 seconds
+Longest time taken for Ellers-Tremaux mazes: 0.00 seconds
+Total length of solutions for Ellers-Tremaux mazes: 21
+Average length of solutions per Ellers-Tremaux maze: 21.00
+Smallest length for solutions found for Ellers-Tremaux: 21
+Largest number for solutions found for Ellers-Tremaux: 21
+

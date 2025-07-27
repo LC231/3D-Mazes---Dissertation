@@ -1,0 +1,64 @@
+Maze Solution results:
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+O#O#O###O#O#O###O       O O O O#O###O#O###########O
+O#O#OOO#O#O#O#OOO OOO O O O O O#O#OOO#O#O#O#O#OOOOO
+O#O#########O###O   O O O   O O#O#O#####O#O#O###O#O
+O#OOO#O#O#OOO#O#OOO OOO O OOO O#O#O#O#O#O#OOO#O#O#O
+O#####O#O#O###O#####O       O O###O#O#O#O###O#O#O#O
+O#O#OOO#O#O#O#OOOOO#OOO O OOO O#O#O#O#OOOOO#OOOOO#O
+O#O#O###O#O#O#O#O  #O   O O   O#O###O#O#####O#O#O#O
+OOO#O#OOO#O#OOO#O O OOO O OOO OOO#O#O#OOOOOOO#O#O#O
+O#O#O#O###O#####O O O#O O     O O#O#O#O#O###O#####O
+O#OOOOO#O#O#OOO#OOOOO#O O OOO O OOO#O#O#O#OOO#O#O#O
+O#O###O#O#####O#O#O#O#O O   O   O###O#O#######O#O#O
+O#OOO#O#O#OOO#OOO#O#O#OOOOOOOOOOO#O#OOO#OOO#OOOOOOO
+O#######O#O#O###O###O#########O#O#O#O###O###O###O#O
+O#O#OOOOO#O#O#OOO#O#OOO#O#O#O#O#O#O#O#O#OOO#O#O#O#O
+O#O#O###O#O#####O#O###O#O#O#O#O#O#O###O###O#O#O###O
+O#O#O#O#O#O#OOO#O#OOO#O#OOO#O#O#O#OOO#OOOOO#O#O#OOO
+O#O###O#O#O#O#O#O#O###O#O###O#O#O#O#O#O###O#O#O###O
+O#O#O#O#OOO#O#OOO#O#O#O#OOO#O#O#O#O#OOOOO#O#OOOOO#O
+O#O#O#O###O#O#O###O#O#O#O###O#O#########O###O###O#O
+O#OOO#O#O#OOO#O#OOO#O O#O#OOOOOOO#OOOOO#O#OOOOO#O#O
+O###O#O#O#O#####O###O O#O#O#O###O#####O#O#####O#O#O
+O#O#O#O#OOOOO#O#O#O#OOOOO#O#OOO#O#O#O#O#O#OOOOO#O#O
+O#O#O#O###O###O#O#O#O###O###O###O#O#O#O#O#########O
+O#O#OOO#O#OOO#O#OOO#O#O#OOO#OOO#O#OOOOO#O#O#O#O#OOO
+O#O###O#O#O#O#O#O#O#O#O#####O###O#O#O#O#O#O#O#O###O
+OOOOOOOOO#O#OOO#O#OOOOO#O#O#O#O#OOO#O#O#O#OOO#O#OOO
+O###O#########O###O###O#O#O#O#O#O#######O#O###O###O
+O#OOO#OOO#OOO#O#O#O#O#O#OOO#OOO#OOOOO#OOO#O#O#O#OOO
+O#O###O###O#O###O#O#O#####O#O#O#####O###O#O#O#####O
+O#OOOOOOOOO#O#OOO#OOOOO#O#OOO#O#O#O#OOO#O#O#OOO#OOO
+O#####O#####O#####O#O###O#O###O#O#O###O###O#O#O###O
+O#OOO#O#O#O#OOO#OOO#OOO#O#O#OOO#OOOOO#O#O#O#O#O#O#O
+O#O#O#O#O#O#####O###O###O#O###O#O###O#O#####O#####O
+OOO#O#O#O#OOO#O#OOO#O#OOO#O#OOO#O#OOO#O#O#OOO#O#OOO
+O#O#O###O#O#O#####O#O#O#O#####O#####O###O#######O#O
+O#O#O#OOO#O#O#OOO#O#O#O#OOOOO#OOO#O#O#OOO#OOO#OOO#O
+O#####O#######O#O#O#O###O#O#######O#O###O#O#O###O#O
+O#O#O#O#O#OOO#O#O#O#O#O#O#OOO#O#O#O#OOO#O#O#O#O#O#O
+O#O#O#O#####O#####O#####O#O###O###O#O#O#O###O#O#O#O
+O#O#O#O O O O O#OOO#OOO#O#O#OOO#O#O#O#O#OOO#O#O#O#O
+O#####OOOOOOOOO###O#O###O#####O#####O#######O###O#O
+OOO#OOOOOOOOOOO#O#O#O#O#O#OOOOO#OOO#O#O#O#O#O#O#O#O
+O#O#O#####O#O#O#O###O#O#######O#O###O#O#O#O###O#O#O
+O#O#OOO#O#O#O#O#O#OOOOO#OOO#O#O#OOO#OOO#O#OOO#OOO#O
+O#O#O#O#O#O#O###O#O#O#####O#O#O#O#O#O#O#O###O#####O
+O#O#O#OOO#O#O#O#OOO#O#O#OOO#OOOOO#O#O#O#O#O#O#O#OOO
+O###O#O#O#####O###O###O###O#O#O#O#O###O#O#O#O#O#O#O
+O#O#O#O#O#O#O#O#OOO#O#OOO#O#O#O#O#O#OOOOOOOOO#OOO#O
+O#O#######O#O#O#####O###O#O#######################O
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+Final length of the solution: 1191
+Maze solved in 2.58 seconds
+length of solutions: 1191
+
+Total time taken for mazes: 2.58 seconds
+Average time per maze: 2.58 seconds
+Shortest time taken for a maze: 2.58 seconds
+Longest time taken for a maze: 2.58 seconds
+Total length of solutions for all mazes: 1191
+Average length of solutions per maze: 1191.00
+Smallest length for solutions found: 1191
+Largest number for solutions found: 1191

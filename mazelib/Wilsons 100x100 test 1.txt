@@ -1,0 +1,41 @@
+Maze Solution results:
+Generator: Wilsons, Solver: RandomMouse
+Total time taken for Wilsons-RandomMouse mazes: 3634.20 seconds
+Average time per Wilsons-RandomMouse maze: 72.68 seconds
+Shortest time taken for Wilsons-RandomMouse mazes: 0.00 seconds
+Longest time taken for Wilsons-RandomMouse mazes: 377.28 seconds
+Total length of solutions for Wilsons-RandomMouse mazes: 496404
+Average length of solutions per Wilsons-RandomMouse maze: 9928.08
+Smallest length for solutions found for Wilsons-RandomMouse: 7
+Largest number for solutions found for Wilsons-RandomMouse: 19671
+
+Generator: Wilsons, Solver: Tremaux
+Total time taken for Wilsons-Tremaux mazes: 128.14 seconds
+Average time per Wilsons-Tremaux maze: 2.56 seconds
+Shortest time taken for Wilsons-Tremaux mazes: 0.02 seconds
+Longest time taken for Wilsons-Tremaux mazes: 11.97 seconds
+Total length of solutions for Wilsons-Tremaux mazes: 491012
+Average length of solutions per Wilsons-Tremaux maze: 9820.24
+Smallest length for solutions found for Wilsons-Tremaux: 363
+Largest number for solutions found for Wilsons-Tremaux: 19633
+
+Generator: Wilsons, Solver: BacktrackingSolver
+Total time taken for Wilsons-BacktrackingSolver mazes: 738.82 seconds
+Average time per Wilsons-BacktrackingSolver maze: 14.78 seconds
+Shortest time taken for Wilsons-BacktrackingSolver mazes: 0.01 seconds
+Longest time taken for Wilsons-BacktrackingSolver mazes: 68.27 seconds
+Total length of solutions for Wilsons-BacktrackingSolver mazes: 526602
+Average length of solutions per Wilsons-BacktrackingSolver maze: 10532.04
+Smallest length for solutions found for Wilsons-BacktrackingSolver: 167
+Largest number for solutions found for Wilsons-BacktrackingSolver: 19847
+
+Generator: Wilsons, Solver: ShortestPaths
+Total time taken for Wilsons-ShortestPaths mazes: 3643.66 seconds
+Average time per Wilsons-ShortestPaths maze: 72.87 seconds
+Shortest time taken for Wilsons-ShortestPaths mazes: 26.74 seconds
+Longest time taken for Wilsons-ShortestPaths mazes: 187.50 seconds
+Total length of solutions for Wilsons-ShortestPaths mazes: 23688
+Average length of solutions per Wilsons-ShortestPaths maze: 473.76
+Smallest length for solutions found for Wilsons-ShortestPaths: 85
+Largest number for solutions found for Wilsons-ShortestPaths: 1045
+
