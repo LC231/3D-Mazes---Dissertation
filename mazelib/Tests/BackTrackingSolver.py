@@ -21,6 +21,11 @@ class BacktrackingSolver(solveAlgo):
                 if solution[-3] in ns:
                     ns.remove(solution[-3])
 
+            # Check if there are any available neighbours
+            if len(ns) == 0:
+                # No path available, return current solution
+                break
+
             # Choose a random neighbouring cell to move to
             nxt = choice(ns)
             # Add the cell midway between the current cell and the chosen cell

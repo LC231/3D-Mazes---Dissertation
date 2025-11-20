@@ -27,10 +27,10 @@ class ShortestPath(solveAlgo):
                 elif self.one_away(solutions[s][-1], self.end):
                     solutions[s].append(None)
                 elif solutions[s][-1] is not None:
-                    if len(solutions[s]) > 1:
-                        if self.midway(solutions[s][-1], solutions[s][-2]) == self.end:
-                            solutions[s].append(None)
-                            continue
+                    # Check if we've reached the end (one cell away)
+                    if self.one_away(solutions[s][-1], self.end):
+                        solutions[s].append(None)
+                        continue
 
                     # Find available neighbour positions from the last position
                     ns = self.available_neighbours(solutions[s][-1])
@@ -60,15 +60,29 @@ class ShortestPath(solveAlgo):
         
         new_solutions = []
         for sol in solutions:
-            new_sol = None
-            last = self.end
+            if not sol or sol[-1] is None:
+                # Solution didn't reach the end, skip it
+                continue
                 
-            if len(sol) > 2 and self.one_away(sol[-2], self.end):
-                new_sol = sol[:-1]
-
+            new_sol = list(sol)
+            
+            # Remove the None marker if present
+            if new_sol and new_sol[-1] is None:
+                new_sol = new_sol[:-1]
+            
+            # If solution ends one cell away from end, we might need to adjust
+            if len(new_sol) > 1 and self.one_away(new_sol[-1], self.end):
+                # Solution is valid, keep it
+                pass
+            elif len(new_sol) > 2 and self.one_away(new_sol[-2], self.end):
+                # Remove the last cell if it's not needed
+                new_sol = new_sol[:-1]
+            
+            # Remove end point if it's explicitly in the solution
+            if new_sol and new_sol[-1] == self.end:
+                new_sol = new_sol[:-1]
+                
             if new_sol:
-                if new_sol[-1] == self.end:
-                    new_sol = new_sol[:-1]
                 new_solutions.append(new_sol)
 
         # Remove duplicate solutions

@@ -40,7 +40,10 @@ def get_user_input(depth):
         width_input = input("Enter the width for the maze: ")
         if width_input.isdigit():
             width = int(width_input)
-            break
+            if width > 0:
+                break
+            else:
+                print("Invalid input! Width must be a positive integer.")
         else:
             print("Invalid input! Please enter a valid integer for width.")
 
@@ -48,7 +51,10 @@ def get_user_input(depth):
         height_input = input("Enter the height for the maze: ")
         if height_input.isdigit():
             height = int(height_input)
-            break
+            if height > 0:
+                break
+            else:
+                print("Invalid input! Height must be a positive integer.")
         else:
             print("Invalid input! Please enter a valid integer for height.")
 
@@ -137,34 +143,36 @@ def visualize(grid, start=None, end=None, solutions=None):
         ax.scatter(end[1], end[0], marker='o', s=50, color='red')
     
     # Plot solutions if provided
-    if solutions is not None:
+    if solutions is not None and len(solutions) > 0:
         flat_solutions = [item for sublist in solutions for item in sublist]
-        path_x, path_y = zip(*flat_solutions)  
-        
-        # Plot solution before clearing in red dots
-        ax.plot(path_y, path_x, marker='o', markersize=5, color='purple', linestyle='None')
-        
-        # Plot cleared solution in cyan dots
-        line, = ax.plot([], [], marker='o', markersize=5, color='cyan', linestyle='None')  
+        if flat_solutions:
+            path_x, path_y = zip(*flat_solutions)  
+            
+            # Plot solution before clearing in purple dots
+            ax.plot(path_y, path_x, marker='o', markersize=5, color='purple', linestyle='None')
+            
+            # Plot cleared solution in cyan dots
+            line, = ax.plot([], [], marker='o', markersize=5, color='cyan', linestyle='None')  
 
-        # Initialize dot to show current position in solution array
-        dot, = ax.plot([], [], marker='o', markersize=5, color='black', linestyle='None')
+            # Initialize dot to show current position in solution array
+            dot, = ax.plot([], [], marker='o', markersize=5, color='black', linestyle='None')
 
-        # Define initialization function for animation
-        def init():
-            line.set_data([], [])
-            dot.set_data([], [])
-            return line, dot
+            # Define initialization function for animation
+            def init():
+                line.set_data([], [])
+                dot.set_data([], [])
+                return line, dot
 
-        # Define update function for animation
-        def update(frame):
-            line.set_data(path_y[:frame], path_x[:frame])
-            dot.set_data(path_y[frame], path_x[frame])
-            return line, dot
+            # Define update function for animation
+            def update(frame):
+                if frame < len(path_x):
+                    line.set_data(path_y[:frame+1], path_x[:frame+1])
+                    dot.set_data([path_y[frame]], [path_x[frame]])
+                return line, dot
 
-        # Create animation object and display it
-        ani = FuncAnimation(fig, update, frames=len(path_x), init_func=init, blit=True)
-        plt.show()
+            # Create animation object and display it
+            ani = FuncAnimation(fig, update, frames=len(path_x), init_func=init, blit=True, interval=50)
+            plt.show()
 
 if __name__ == '__main__':
     generate_solve_and_show()

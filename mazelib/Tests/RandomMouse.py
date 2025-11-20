@@ -14,6 +14,10 @@ class RandomMouse(solveAlgo):
         while not self.one_away(solution[-1], self.end):
             # Find available neighbours for the current position
             ns = self.available_neighbours(solution[-1])
+            # Check if there are any available neighbours
+            if len(ns) == 0:
+                # No path available, return current solution
+                break
             # Randomly select the next position from the available neighbours
             nxt = choice(ns)
             # Add the midpoint between the current position and the next position to the solution

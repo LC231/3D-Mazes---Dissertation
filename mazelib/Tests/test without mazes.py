@@ -1,4 +1,3 @@
-import sys
 from maze import Maze
 from Wilsons import Wilsons
 from BinaryTree import BinaryTree

@@ -1,5 +1,5 @@
 import numpy as np
-from random import randrange
+from random import randrange, choice
 
 from GenAlgo import genAlgo
 
@@ -33,11 +33,11 @@ class BacktrackingGenerator(genAlgo):
                 track = track[:-1]  # Remove the current cell from the track
             else:
                 # Choose a random neighbouring cell and mark it as a passage
-                nrow, ncol = neighbours[0]
+                nrow, ncol = choice(neighbours)
                 grid[nrow][ncol] = 0
                 # Mark the cell between current and chosen cell as passage
                 grid[(nrow + crow) // 2][(ncol + ccol) // 2] = 0
                 # Move to the chosen neighbouring cell
-                track += [(nrow, ncol)]
+                track.append((nrow, ncol))
 
         return grid

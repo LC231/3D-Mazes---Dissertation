@@ -7,8 +7,8 @@ from GenAlgo import genAlgo
 class Wilsons(genAlgo):  
 
     def __init__(self, w, h, hunt_type="random"): 
-        super(Wilsons, self).__init__(w, h)  
-        
+        super(Wilsons, self).__init__(w, h)
+        self.hunt_type = hunt_type
 
     def generate(self):  
         
@@ -71,9 +71,9 @@ class Wilsons(genAlgo):
         elif direction == 1:
             return (2, 0)  # South
         elif direction == 2:
-            return (0, -2)  # East
+            return (0, 2)  # East
         else:
-            return (0, 2)  # West
+            return (0, -2)  # West
 
     def move(self, start, direction):  # move from one cell to another
         return (start[0] + direction[0], start[1] + direction[1])  # Calculating new coordinates after movement

@@ -10,7 +10,6 @@ from RandomMouse import RandomMouse
 import time
 from memory_profiler import profile
 import numpy as np
-import matplotlib.pyplot as plt
 
 def get_loop_input():
     while True:

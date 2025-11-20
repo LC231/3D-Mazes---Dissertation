@@ -3,9 +3,12 @@ from numpy.random import shuffle
 
 class genAlgo:
     def __init__(self, h, w):
+        # Validate maze dimensions
+        if h <= 0 or w <= 0:
+            raise ValueError(f"Maze dimensions must be positive integers, got h={h}, w={w}")
         # Initialize maze dimensions
-        self.h = h
-        self.w = w
+        self.h = int(h)
+        self.w = int(w)
         # Calculate grid dimensions with walls included
         self.H = (2*self.h) + 1
         self.W = (2*self.w) + 1 

@@ -64,9 +64,13 @@ class solveAlgo:
 
     def clear_solution(self, solution):
         # Clear redundant parts of a solution path
+        if not solution or len(solution) <= 1:
+            return solution
+        
         found = True
         attempt = 0
         max_attempt = len(solution)
+        solution = list(solution)  # Make a copy to avoid modifying the original
 
         while found and len(solution) > 2 and attempt < max_attempt:
             found = False
@@ -74,10 +78,14 @@ class solveAlgo:
 
             for i in range(len(solution) - 1):
                 first = solution[i]
-                if first in solution[i + 1 :]:
-                    first_i = i
-                    last_i = solution[i + 1 :].index(first) + i + 1
-                    found = True
+                # Check if this cell appears later in the solution
+                for j in range(i + 1, len(solution)):
+                    if solution[j] == first:
+                        first_i = i
+                        last_i = j
+                        found = True
+                        break
+                if found:
                     break
 
             if found:
@@ -86,7 +94,7 @@ class solveAlgo:
         if len(solution) > 1:
             if solution[0] == self.start:
                 solution = solution[1:]
-            if solution[-1] == self.end:
+            if len(solution) > 0 and solution[-1] == self.end:
                 solution = solution[:-1]
 
         return solution

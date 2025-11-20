@@ -37,7 +37,10 @@ class Tremaux(solveAlgo):
             return self.visited_cells[cell] if self.visited_cells[cell] < 3 else 2  # Limiting visit count to 2
 
     def next(self, ns, solution):  #  determine the next cell to visit
-        if len(ns) <= 1: 
+        if len(ns) == 0:
+            # No neighbours available, should not happen in a valid maze
+            raise ValueError("No available neighbours found")
+        if len(ns) == 1: 
             return ns[0]  
 
         visit_counts = {}  # Dictionary to store visit counts of neighbours
